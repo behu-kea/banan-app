@@ -24,6 +24,12 @@ class MainActivity : ComponentActivity() {
             }) {
                 Text(text = "Create banana")
             }
+
+            Button(onClick = {
+                print("banana found")
+            }) {
+                Text(text = "🍌")
+            }
         }
     }
 }
