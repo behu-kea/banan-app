@@ -30,6 +30,12 @@ class MainActivity : ComponentActivity() {
             }) {
                 Text(text = "🍌")
             }
+
+            Button(onClick = {
+                print("banana found")
+            }) {
+                Text(text = "🍌")
+            }
         }
     }
 }
